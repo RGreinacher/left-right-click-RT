@@ -1,0 +1,84 @@
+.annotated-text-container .blankslate {
+  color: #999;
+  font-size: 0.9rem; }
+
+.sentence {
+  font-size: 0; }
+  .sentence .token {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 2px; }
+    .sentence .token.COM {
+      background-color: blue;
+      color: white; }
+    .sentence .token.PER {
+      background-color: green;
+      color: white; }
+  .sentence .token {
+    display: inline-block;
+    margin: 1px 0;
+    padding: 0 2px 0 2px;
+    position: relative; }
+    .sentence .token.COM, .sentence .token.PER, .sentence .token.CITY, .sentence .token.STREET {
+      color: #ffffff; }
+    .sentence .token.PER {
+      background-color: #93B449; }
+    .sentence .token.COM {
+      background-color: #7A88A5; }
+    .sentence .token.CITY {
+      background-color: #EBAD2D; }
+    .sentence .token.STREET {
+      background-color: #BF3865; }
+    .sentence .token.left-end {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      margin-left: 4px;
+      padding-left: 5px; }
+    .sentence .token.right-end {
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-right: 4px;
+      padding-right: 5px; }
+
+.panel .panel-heading {
+  color: #FFFFFF; }
+
+.panel.color-coding-PER {
+  border-color: #a9c46c; }
+  .panel.color-coding-PER .panel-heading {
+    background: #a9c46c; }
+
+.panel.color-coding-COM {
+  border-color: #98a3ba; }
+  .panel.color-coding-COM .panel-heading {
+    background: #98a3ba; }
+
+.panel.color-coding-CITY {
+  border-color: #efbf5c; }
+  .panel.color-coding-CITY .panel-heading {
+    background: #efbf5c; }
+
+.panel.color-coding-STREET {
+  border-color: #cf5b82; }
+  .panel.color-coding-STREET .panel-heading {
+    background: #cf5b82; }
+
+.panel .entities-list li {
+  margin: 5px 0; }
+  .panel .entities-list li:first-of-type {
+    margin-top: 0; }
+  .panel .entities-list li:last-of-type {
+    margin-bottom: 0; }
+
+.panel .entities-list .entity-preview-image {
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 100px;
+  vertical-align: middle;
+  width: 100px; }
+
+.panel .entities-list .name {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle; }
